@@ -1,0 +1,352 @@
+[
+  {
+    "name": "地面区 (红)",
+    "rgb": [
+      240,
+      210,
+      210
+    ],
+    "config_key": "ground_red",
+    "matches": true
+  },
+  {
+    "name": "地面区 (蓝)",
+    "rgb": [
+      170,
+      210,
+      230
+    ],
+    "config_key": "ground_blue",
+    "matches": true
+  },
+  {
+    "name": "地面公共区",
+    "rgb": [
+      245,
+      240,
+      200
+    ],
+    "config_key": "public",
+    "matches": true
+  },
+  {
+    "name": "启动/重试区 (红)",
+    "rgb": [
+      223,
+      34,
+      34
+    ],
+    "config_key": "start_red",
+    "matches": true
+  },
+  {
+    "name": "启动/重试区 (蓝)",
+    "rgb": [
+      50,
+      0,
+      255
+    ],
+    "config_key": "start_blue",
+    "matches": true
+  },
+  {
+    "name": "储存区 (红)",
+    "rgb": [
+      240,
+      210,
+      210
+    ],
+    "config_key": "ground_red",
+    "matches": true
+  },
+  {
+    "name": "储存区 (蓝)",
+    "rgb": [
+      170,
+      210,
+      230
+    ],
+    "config_key": "ground_blue",
+    "matches": true
+  },
+  {
+    "name": "五色石基座",
+    "rgb": [
+      100,
+      62,
+      0
+    ],
+    "config_key": "base_pvc",
+    "matches": true
+  },
+  {
+    "name": "L1阶梯(红)",
+    "rgb": [
+      235,
+      180,
+      160
+    ],
+    "config_key": "l1_red",
+    "matches": true
+  },
+  {
+    "name": "L1阶梯(蓝)",
+    "rgb": [
+      150,
+      215,
+      220
+    ],
+    "config_key": "l1_blue",
+    "matches": true
+  },
+  {
+    "name": "坡道(红)",
+    "rgb": [
+      200,
+      150,
+      140
+    ],
+    "config_key": "ramp_red",
+    "matches": true
+  },
+  {
+    "name": "坡道(蓝)",
+    "rgb": [
+      130,
+      180,
+      200
+    ],
+    "config_key": "ramp_blue",
+    "matches": true
+  },
+  {
+    "name": "L1层区 (红)",
+    "rgb": [
+      235,
+      180,
+      160
+    ],
+    "config_key": "l1_red",
+    "matches": true
+  },
+  {
+    "name": "L1层区 (蓝)",
+    "rgb": [
+      150,
+      215,
+      220
+    ],
+    "config_key": "l1_blue",
+    "matches": true
+  },
+  {
+    "name": "建塔处 (L1)",
+    "rgb": [
+      40,
+      100,
+      50
+    ],
+    "config_key": "tower_spot",
+    "matches": true
+  },
+  {
+    "name": "L1 公共区",
+    "rgb": [
+      245,
+      240,
+      200
+    ],
+    "config_key": "public",
+    "matches": true
+  },
+  {
+    "name": "传递区 (红)",
+    "rgb": [
+      245,
+      170,
+      60
+    ],
+    "config_key": "transfer_red",
+    "matches": true
+  },
+  {
+    "name": "传递区 (蓝)",
+    "rgb": [
+      60,
+      170,
+      245
+    ],
+    "config_key": "transfer_blue",
+    "matches": true
+  },
+  {
+    "name": "L1 隔板",
+    "rgb": [
+      190,
+      190,
+      185
+    ],
+    "config_key": "grey",
+    "matches": true
+  },
+  {
+    "name": "L1 重试区 (红)",
+    "rgb": [
+      223,
+      34,
+      34
+    ],
+    "config_key": "start_red",
+    "matches": true
+  },
+  {
+    "name": "L1 重试区 (蓝)",
+    "rgb": [
+      50,
+      0,
+      255
+    ],
+    "config_key": "start_blue",
+    "matches": true
+  },
+  {
+    "name": "L1 围栏",
+    "rgb": [
+      190,
+      190,
+      185
+    ],
+    "config_key": "grey",
+    "matches": true
+  },
+  {
+    "name": "L2 阶梯 (红)",
+    "rgb": [
+      235,
+      180,
+      160
+    ],
+    "config_key": "l1_red",
+    "matches": true
+  },
+  {
+    "name": "L2 阶梯 (蓝)",
+    "rgb": [
+      150,
+      215,
+      220
+    ],
+    "config_key": "l1_blue",
+    "matches": true
+  },
+  {
+    "name": "L2层区",
+    "rgb": [
+      190,
+      190,
+      185
+    ],
+    "config_key": "grey",
+    "matches": true
+  },
+  {
+    "name": "建塔处 (L2)",
+    "rgb": [
+      40,
+      100,
+      50
+    ],
+    "config_key": "tower_spot",
+    "matches": true
+  },
+  {
+    "name": "中央基座",
+    "rgb": [
+      100,
+      62,
+      0
+    ],
+    "config_key": "base_pvc",
+    "matches": true
+  },
+  {
+    "name": "L2 侧墙",
+    "rgb": [
+      190,
+      190,
+      185
+    ],
+    "config_key": "grey",
+    "matches": true
+  },
+  {
+    "name": "比赛场地围栏",
+    "rgb": [
+      100,
+      62,
+      0
+    ],
+    "config_key": "base_pvc",
+    "matches": true
+  },
+  {
+    "name": "中央隔板",
+    "rgb": [
+      100,
+      62,
+      0
+    ],
+    "config_key": "base_pvc",
+    "matches": true
+  },
+  {
+    "name": "塔基/中段 (红)",
+    "rgb": [
+      223,
+      34,
+      34
+    ],
+    "config_key": "block_red",
+    "matches": true
+  },
+  {
+    "name": "塔基/中段(蓝)",
+    "rgb": [
+      50,
+      0,
+      255
+    ],
+    "config_key": "block_blue",
+    "matches": true
+  },
+  {
+    "name": "塔顶 (红)",
+    "rgb": [
+      223,
+      34,
+      34
+    ],
+    "config_key": "block_red",
+    "matches": true
+  },
+  {
+    "name": "塔顶 (蓝)",
+    "rgb": [
+      50,
+      0,
+      255
+    ],
+    "config_key": "block_blue",
+    "matches": true
+  },
+  {
+    "name": "五色石 (球体)",
+    "rgb": [
+      218,
+      165,
+      32
+    ],
+    "config_key": "stone",
+    "matches": true
+  }
+]

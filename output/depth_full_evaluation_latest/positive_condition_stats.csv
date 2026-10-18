@@ -1,0 +1,2 @@
+ball_3d_error_median_m,ball_3d_within_5cm_n,ball_absent_n,ball_detected_n,ball_detection_rate,ball_false_positive_n,ball_false_positive_rate,ball_pixel_error_median_px,ball_present_n,column_absent_n,column_detected_n,column_detection_rate,column_false_positive_n,column_false_positive_rate,column_present_n,column_xy_error_median_m,condition,n
+0.005529794785928277,59,0,60,1.0,0,,2.9981221444849773,60,0,60,1.0,0,,60,0.0047468245957941945,normal,60

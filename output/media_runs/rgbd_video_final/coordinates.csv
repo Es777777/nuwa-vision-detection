@@ -1,0 +1,61 @@
+frame,state,reason,ball_center_camera_m,column_xy_center_camera_m,coordinate_frame,sphere_rmse_m
+0,OFF_COLUMN,rgbd_geometry_ok,"[0.004441647098726156, -0.4219436704102786, 4.842592187435644]","[-1.2131860256195068, 0.25955137610435486, 5.461999893188477]",camera_color_optical_frame,0.04519492762413664
+1,OFF_COLUMN,rgbd_geometry_ok,"[0.003911140702696794, -0.4353778027624138, 4.816999946896603]","[-0.426081120967865, 0.3921494781970978, 5.210999965667725]",camera_color_optical_frame,0.026018665188954782
+2,OFF_COLUMN,rgbd_geometry_ok,"[0.0043910010720715036, -0.43533554961872767, 4.816986504032698]","[-0.03824455663561821, 0.43904465436935425, 5.063000202178955]",camera_color_optical_frame,0.026021258132470085
+3,OFF_COLUMN,rgbd_geometry_ok,"[-1.7097323762294108, -0.8964332761691423, 7.928906007525007]","[0.007485595997422934, 0.4234752655029297, 5.068999767303467]",camera_color_optical_frame,0.05867932500114731
+4,OFF_COLUMN,rgbd_geometry_ok,"[0.0044961297230474515, -0.433993106283324, 4.819219661093557]","[-7.716893014730886e-05, 0.4577871561050415, 5.059999942779541]",camera_color_optical_frame,0.027562167746994323
+5,OFF_COLUMN,rgbd_geometry_ok,"[0.00451645662093664, -0.43150225269809894, 4.824001433548293]","[0.495610773563385, 0.37222105264663696, 5.23199987411499]",camera_color_optical_frame,0.03090999024864721
+6,OFF_COLUMN,rgbd_geometry_ok,"[0.0029588473135770304, -0.44066260736848006, 4.811303653327215]","[1.1648467779159546, 0.2656800150871277, 5.461999893188477]",camera_color_optical_frame,0.02178242124773202
+7,OFF_COLUMN,rgbd_geometry_ok,"[0.005443548702284267, -0.41755071392012244, 4.852123624646696]","[1.1696146726608276, 0.5084651708602905, 4.980999946594238]",camera_color_optical_frame,0.0528827808069851
+8,OFF_COLUMN,rgbd_geometry_ok,"[0.00451645662093664, -0.43150225269809894, 4.824001433548293]","[1.119088053703308, 0.708063006401062, 4.59499979019165]",camera_color_optical_frame,0.03090999024864721
+9,OFF_COLUMN,rgbd_geometry_ok,"[0.004540285151950161, -0.42227808185227556, 4.841746971272423]","[0.004378958139568567, -0.11073485761880875, 4.952000141143799]",camera_color_optical_frame,0.04453902505058644
+10,OFF_COLUMN,rgbd_geometry_ok,"[0.00437180497517546, -0.43660781575109553, 4.81534063164924]","[-1.122284173965454, 0.7088444828987122, 4.59499979019165]",camera_color_optical_frame,0.02483199405301357
+11,OFF_COLUMN,rgbd_geometry_ok,"[0.0022425040010098022, -0.4450319900329385, 4.805457097281399]","[-1.1785694360733032, 0.5119438171386719, 4.961999893188477]",camera_color_optical_frame,0.01831717620461871
+12,OFF_COLUMN,rgbd_geometry_ok,"[0.004300782785596073, -0.4609313911260351, 4.502079586537592]","[0.002779129659757018, 0.13166598975658417, 4.5929999351501465]",camera_color_optical_frame,0.03635318315202412
+13,OFF_COLUMN,rgbd_geometry_ok,"[0.00443589204731721, -0.45916212842643533, 4.504727444987873]","[0.0037679849192500114, 0.1366221308708191, 4.5929999351501465]",camera_color_optical_frame,0.03858313561313363
+14,OFF_COLUMN,rgbd_geometry_ok,"[0.00423349179997891, -0.4648979446440209, 4.4969916724186625]","[0.0017672058893367648, 0.13733813166618347, 4.5929999351501465]",camera_color_optical_frame,0.032035636931940205
+15,OFF_COLUMN,rgbd_geometry_ok,"[0.004648523584115245, -0.4607761256291294, 4.502483149719128]","[0.0029341313056647778, 0.13721805810928345, 4.5929999351501465]",camera_color_optical_frame,0.03664794435296035
+16,UNKNOWN,sphere_fit_rejected,,,camera_color_optical_frame,0.06680067126213436
+17,OFF_COLUMN,rgbd_geometry_ok,"[0.003944700157506418, -0.4636666727740546, 4.498401068583473]","[0.0017959404503926635, 0.13732051849365234, 4.5929999351501465]",camera_color_optical_frame,0.03324232357744801
+18,UNKNOWN,no_ball_candidate,,,camera_color_optical_frame,
+19,UNKNOWN,rgbd_candidate_rejected,,,camera_color_optical_frame,
+20,OFF_COLUMN,rgbd_geometry_ok,"[0.003949834068400884, -0.49606300828200345, 4.45294217767035]","[0.854988694190979, 0.5363225340843201, 4.183000087738037]",camera_color_optical_frame,0.022486402882523914
+21,OFF_COLUMN,rgbd_geometry_ok,"[0.0024744020604712154, -0.4796294404650556, 4.47503631291767]","[0.0027604217175394297, 0.13304384052753448, 4.5929999351501465]",camera_color_optical_frame,0.01889768904504243
+22,OFF_COLUMN,rgbd_geometry_ok,"[0.0017198548093138272, -0.4798485292754804, 4.474483894007063]","[-0.8588148951530457, 0.537516713142395, 4.183000087738037]",camera_color_optical_frame,0.01878990430988192
+23,OFF_COLUMN,rgbd_geometry_ok,"[0.003934566288188053, -0.46863693058876477, 4.491621833196991]","[0.002072267234325409, 0.1330367624759674, 4.5929999351501465]",camera_color_optical_frame,0.027889381656437184
+24,UNKNOWN,rgbd_candidate_rejected,,,camera_color_optical_frame,
+25,UNKNOWN,rgbd_candidate_rejected,,,camera_color_optical_frame,
+26,UNKNOWN,rgbd_candidate_rejected,,,camera_color_optical_frame,
+27,UNKNOWN,rgbd_candidate_rejected,,,camera_color_optical_frame,
+28,UNKNOWN,rgbd_candidate_rejected,,,camera_color_optical_frame,
+29,UNKNOWN,rgbd_candidate_rejected,,,camera_color_optical_frame,
+30,UNKNOWN,rgbd_candidate_rejected,,,camera_color_optical_frame,
+31,UNKNOWN,rgbd_candidate_rejected,,,camera_color_optical_frame,
+32,UNKNOWN,rgbd_candidate_rejected,,,camera_color_optical_frame,
+33,UNKNOWN,rgbd_candidate_rejected,,,camera_color_optical_frame,
+34,UNKNOWN,rgbd_candidate_rejected,,,camera_color_optical_frame,
+35,UNKNOWN,rgbd_candidate_rejected,,,camera_color_optical_frame,
+36,UNKNOWN,rgbd_candidate_rejected,,,camera_color_optical_frame,
+37,UNKNOWN,rgbd_candidate_rejected,,,camera_color_optical_frame,
+38,UNKNOWN,rgbd_candidate_rejected,,,camera_color_optical_frame,
+39,UNKNOWN,no_ball_candidate,,,camera_color_optical_frame,
+40,UNKNOWN,no_ball_candidate,,,camera_color_optical_frame,
+41,UNKNOWN,no_ball_candidate,,,camera_color_optical_frame,
+42,UNKNOWN,no_ball_candidate,,,camera_color_optical_frame,
+43,UNKNOWN,no_ball_candidate,,,camera_color_optical_frame,
+44,UNKNOWN,rgbd_candidate_rejected,,,camera_color_optical_frame,
+45,UNKNOWN,rgbd_candidate_rejected,,,camera_color_optical_frame,
+46,OFF_COLUMN,rgbd_geometry_ok,"[-0.5140334410531568, 0.35669234718822695, 1.639309117107575]","[-0.44181370735168457, 0.3201552629470825, 2.059999942779541]",camera_color_optical_frame,0.027667563814358902
+47,UNKNOWN,rgbd_candidate_rejected,,,camera_color_optical_frame,
+48,UNKNOWN,rgbd_candidate_rejected,,,camera_color_optical_frame,
+49,UNKNOWN,rgbd_candidate_rejected,,,camera_color_optical_frame,
+50,UNKNOWN,rgbd_candidate_rejected,,,camera_color_optical_frame,
+51,UNKNOWN,rgbd_candidate_rejected,,,camera_color_optical_frame,
+52,UNKNOWN,no_ball_candidate,,,camera_color_optical_frame,
+53,UNKNOWN,no_ball_candidate,,,camera_color_optical_frame,
+54,UNKNOWN,no_ball_candidate,,,camera_color_optical_frame,
+55,UNKNOWN,rgbd_candidate_rejected,,,camera_color_optical_frame,
+56,UNKNOWN,rgbd_candidate_rejected,,,camera_color_optical_frame,
+57,UNKNOWN,rgbd_candidate_rejected,,,camera_color_optical_frame,
+58,UNKNOWN,rgbd_candidate_rejected,,,camera_color_optical_frame,
+59,UNKNOWN,rgbd_candidate_rejected,,,camera_color_optical_frame,

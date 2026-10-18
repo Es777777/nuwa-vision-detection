@@ -1,0 +1,16 @@
+{
+  "frames": 60,
+  "detected": 60,
+  "coordinate_valid_frames": 60,
+  "column_coordinate_frames": 60,
+  "temporal_gate_rejected_frames": 0,
+  "missed_frames": [],
+  "states": {
+    "ON_COLUMN": 59,
+    "OFF_COLUMN": 1
+  },
+  "coordinate_input": "pose_csv",
+  "coordinate_frame": "field",
+  "depth_input": "paired depth images",
+  "depth_alignment": "paired by frame index; nearest-neighbour resize only when aspect ratios match"
+}

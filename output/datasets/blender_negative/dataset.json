@@ -1,0 +1,8 @@
+{
+  "images": 90,
+  "conditions": {
+    "no_ball": 30,
+    "no_column": 30,
+    "empty": 30
+  }
+}

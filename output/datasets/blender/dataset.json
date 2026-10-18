@@ -1,0 +1,13 @@
+{
+  "source": "Blender 5.2.2",
+  "resolution": [
+    1000,
+    700
+  ],
+  "coordinate_frame": "Gazebo field frame, Z up",
+  "views": 60,
+  "targets": [
+    "ball",
+    "central_column"
+  ]
+}

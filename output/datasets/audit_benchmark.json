@@ -1,0 +1,189 @@
+{
+  "roi": [
+    180,
+    60,
+    820,
+    650
+  ],
+  "positive_ball_60": {
+    "HSV": {
+      "n": 60,
+      "detected": 43,
+      "success": 1,
+      "success_rate": 0.016666666666666666,
+      "false_positive_rate": null,
+      "median_error_px": 89.68986736424975
+    },
+    "Hough": {
+      "n": 60,
+      "detected": 43,
+      "success": 40,
+      "success_rate": 0.6666666666666666,
+      "false_positive_rate": null,
+      "median_error_px": 3.2235592232924635
+    }
+  },
+  "negative_81": {
+    "HSV": {
+      "n": 81,
+      "detected": 58,
+      "success": 58,
+      "success_rate": 0.7160493827160493,
+      "false_positive_rate": 0.7160493827160493,
+      "median_error_px": null
+    },
+    "Hough": {
+      "n": 81,
+      "detected": 40,
+      "success": 40,
+      "success_rate": 0.49382716049382713,
+      "false_positive_rate": 0.49382716049382713,
+      "median_error_px": null
+    }
+  },
+  "robust_192": {
+    "HSV": {},
+    "Hough": {},
+    "condition_blur": {
+      "HSV": {
+        "n": 20,
+        "detected": 12,
+        "success": 0,
+        "success_rate": 0.0
+      },
+      "Hough": {
+        "n": 20,
+        "detected": 13,
+        "success": 12,
+        "success_rate": 0.6
+      }
+    },
+    "condition_bright": {
+      "HSV": {
+        "n": 20,
+        "detected": 3,
+        "success": 0,
+        "success_rate": 0.0
+      },
+      "Hough": {
+        "n": 20,
+        "detected": 16,
+        "success": 14,
+        "success_rate": 0.7
+      }
+    },
+    "condition_dark": {
+      "HSV": {
+        "n": 12,
+        "detected": 12,
+        "success": 11,
+        "success_rate": 0.9166666666666666
+      },
+      "Hough": {
+        "n": 12,
+        "detected": 8,
+        "success": 7,
+        "success_rate": 0.5833333333333334
+      }
+    },
+    "condition_gamma": {
+      "HSV": {
+        "n": 20,
+        "detected": 4,
+        "success": 0,
+        "success_rate": 0.0
+      },
+      "Hough": {
+        "n": 20,
+        "detected": 15,
+        "success": 15,
+        "success_rate": 0.75
+      }
+    },
+    "condition_glare": {
+      "HSV": {
+        "n": 20,
+        "detected": 14,
+        "success": 2,
+        "success_rate": 0.1
+      },
+      "Hough": {
+        "n": 20,
+        "detected": 16,
+        "success": 15,
+        "success_rate": 0.75
+      }
+    },
+    "condition_noise": {
+      "HSV": {
+        "n": 20,
+        "detected": 20,
+        "success": 8,
+        "success_rate": 0.4
+      },
+      "Hough": {
+        "n": 20,
+        "detected": 9,
+        "success": 8,
+        "success_rate": 0.4
+      }
+    },
+    "condition_normal": {
+      "HSV": {
+        "n": 20,
+        "detected": 13,
+        "success": 0,
+        "success_rate": 0.0
+      },
+      "Hough": {
+        "n": 20,
+        "detected": 16,
+        "success": 15,
+        "success_rate": 0.75
+      }
+    },
+    "condition_occlusion": {
+      "HSV": {
+        "n": 20,
+        "detected": 20,
+        "success": 6,
+        "success_rate": 0.3
+      },
+      "Hough": {
+        "n": 20,
+        "detected": 11,
+        "success": 8,
+        "success_rate": 0.4
+      }
+    },
+    "condition_side_crop": {
+      "HSV": {
+        "n": 20,
+        "detected": 13,
+        "success": 0,
+        "success_rate": 0.0
+      },
+      "Hough": {
+        "n": 20,
+        "detected": 16,
+        "success": 0,
+        "success_rate": 0.0
+      }
+    },
+    "condition_tilt": {
+      "HSV": {
+        "n": 20,
+        "detected": 14,
+        "success": 0,
+        "success_rate": 0.0
+      },
+      "Hough": {
+        "n": 20,
+        "detected": 16,
+        "success": 1,
+        "success_rate": 0.05
+      }
+    }
+  },
+  "note": "No ground-truth pixel is passed into candidate generation. The ROI is a calibrated field ROI; truth is used only for scoring."
+}

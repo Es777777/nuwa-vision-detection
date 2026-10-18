@@ -1,0 +1,61 @@
+frame,state,reason,ball_center_camera_m,column_xy_center_camera_m,coordinate_frame,sphere_rmse_m
+0,OFF_COLUMN,rgbd_geometry_ok,"[0.06331858149871729, -0.3896030010896392, 4.8153673472568315]","[-1.2131860256195068, 0.25955137610435486, 5.461999893188477]",camera_color_optical_frame,0.023482880827280807
+1,OFF_COLUMN,rgbd_geometry_ok,"[-0.005442068283135478, -0.4581233718363351, 4.797405291916526]","[-0.43242576718330383, 0.39582788944244385, 5.189000129699707]",camera_color_optical_frame,0.013742286581229389
+2,UNKNOWN,sphere_fit_rejected,,,camera_color_optical_frame,0.0928019684632355
+3,UNKNOWN,sphere_fit_rejected,,,camera_color_optical_frame,0.09883653361276985
+4,UNKNOWN,sphere_fit_rejected,,,camera_color_optical_frame,0.20346960745683593
+5,UNKNOWN,sphere_fit_rejected,,,camera_color_optical_frame,0.3268311650473948
+6,UNKNOWN,sphere_fit_rejected,,,camera_color_optical_frame,0.11205166575526788
+7,UNKNOWN,sphere_fit_rejected,,,camera_color_optical_frame,0.06423616484561115
+8,OFF_COLUMN,rgbd_geometry_ok,"[-0.000559543828576606, -0.4508151737034358, 4.802418334963172]","[1.119088053703308, 0.708063006401062, 4.59499979019165]",camera_color_optical_frame,0.01577548015791548
+9,OFF_COLUMN,rgbd_geometry_ok,"[-0.0010380441165382698, -0.4470349358496808, 4.802434359510473]","[0.00405445322394371, -0.11522339284420013, 4.951000213623047]",camera_color_optical_frame,0.01703332414744936
+10,OFF_COLUMN,rgbd_geometry_ok,"[0.00036813111228412764, -0.449541168672129, 4.801445866967723]","[-1.122284173965454, 0.7088444828987122, 4.59499979019165]",camera_color_optical_frame,0.0160049759604683
+11,OFF_COLUMN,rgbd_geometry_ok,"[0.0012438235560368017, -0.44364171330789404, 4.808033648672687]","[-1.1785694360733032, 0.5119438171386719, 4.961999893188477]",camera_color_optical_frame,0.01960478115165321
+12,UNKNOWN,sphere_fit_rejected,,,camera_color_optical_frame,0.15532713925675887
+13,UNKNOWN,sphere_fit_rejected,,,camera_color_optical_frame,0.3929765825863344
+14,UNKNOWN,sphere_fit_rejected,,,camera_color_optical_frame,0.08454551924473877
+15,UNKNOWN,sphere_fit_rejected,,,camera_color_optical_frame,0.26814142404971775
+16,UNKNOWN,sphere_fit_rejected,,,camera_color_optical_frame,0.26027099380097257
+17,UNKNOWN,sphere_fit_rejected,,,camera_color_optical_frame,0.26698825631833417
+18,UNKNOWN,no_ball_candidate,,,camera_color_optical_frame,
+19,UNKNOWN,sphere_fit_rejected,,,camera_color_optical_frame,0.2703181131414722
+20,UNKNOWN,sphere_fit_rejected,,,camera_color_optical_frame,0.1095192807516418
+21,UNKNOWN,sphere_fit_rejected,,,camera_color_optical_frame,0.11439746848548138
+22,UNKNOWN,sphere_fit_rejected,,,camera_color_optical_frame,0.11575675574786982
+23,UNKNOWN,sphere_fit_rejected,,,camera_color_optical_frame,0.2929159253049456
+24,UNKNOWN,no_ball_candidate,,,camera_color_optical_frame,
+25,UNKNOWN,sphere_fit_rejected,,,camera_color_optical_frame,0.0800878936250337
+26,UNKNOWN,sphere_fit_rejected,,,camera_color_optical_frame,0.12241743882720331
+27,UNKNOWN,no_ball_candidate,,,camera_color_optical_frame,
+28,UNKNOWN,sphere_fit_rejected,,,camera_color_optical_frame,0.08291548724034983
+29,UNKNOWN,sphere_fit_rejected,,,camera_color_optical_frame,0.12573633415177296
+30,UNKNOWN,no_ball_candidate,,,camera_color_optical_frame,
+31,UNKNOWN,sphere_fit_rejected,,,camera_color_optical_frame,0.09858284885534659
+32,UNKNOWN,no_ball_candidate,,,camera_color_optical_frame,
+33,UNKNOWN,no_ball_candidate,,,camera_color_optical_frame,
+34,UNKNOWN,sphere_fit_rejected,,,camera_color_optical_frame,0.07648689293491072
+35,UNKNOWN,no_ball_candidate,,,camera_color_optical_frame,
+36,UNKNOWN,no_ball_candidate,,,camera_color_optical_frame,
+37,UNKNOWN,no_ball_candidate,,,camera_color_optical_frame,
+38,UNKNOWN,no_ball_candidate,,,camera_color_optical_frame,
+39,UNKNOWN,no_ball_candidate,,,camera_color_optical_frame,
+40,UNKNOWN,no_ball_candidate,,,camera_color_optical_frame,
+41,UNKNOWN,no_ball_candidate,,,camera_color_optical_frame,
+42,UNKNOWN,no_ball_candidate,,,camera_color_optical_frame,
+43,UNKNOWN,no_ball_candidate,,,camera_color_optical_frame,
+44,UNKNOWN,no_ball_candidate,,,camera_color_optical_frame,
+45,UNKNOWN,no_ball_candidate,,,camera_color_optical_frame,
+46,UNKNOWN,no_ball_candidate,,,camera_color_optical_frame,
+47,UNKNOWN,no_ball_candidate,,,camera_color_optical_frame,
+48,UNKNOWN,no_ball_candidate,,,camera_color_optical_frame,
+49,UNKNOWN,no_ball_candidate,,,camera_color_optical_frame,
+50,UNKNOWN,no_ball_candidate,,,camera_color_optical_frame,
+51,UNKNOWN,no_ball_candidate,,,camera_color_optical_frame,
+52,UNKNOWN,no_ball_candidate,,,camera_color_optical_frame,
+53,UNKNOWN,no_ball_candidate,,,camera_color_optical_frame,
+54,UNKNOWN,no_ball_candidate,,,camera_color_optical_frame,
+55,UNKNOWN,no_ball_candidate,,,camera_color_optical_frame,
+56,UNKNOWN,no_ball_candidate,,,camera_color_optical_frame,
+57,UNKNOWN,no_ball_candidate,,,camera_color_optical_frame,
+58,OFF_COLUMN,rgbd_geometry_ok,"[0.10018816096209487, 0.40626823920746136, 1.9932931297852863]","[0.0011284248903393745, 0.23931869864463806, 2.4230000972747803]",camera_color_optical_frame,0.03513654452436861
+59,OFF_COLUMN,rgbd_geometry_ok,"[0.10106368869175887, 0.3344957502954181, 1.9987265401982564]","[0.0010609377641230822, 0.23920464515686035, 2.4230000972747803]",camera_color_optical_frame,0.03058794029875242

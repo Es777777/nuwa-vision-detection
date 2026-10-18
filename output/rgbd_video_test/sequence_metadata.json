@@ -1,0 +1,23 @@
+{
+  "frames": 60,
+  "fps": 10,
+  "sequence_type": "ordered static Blender camera views; not a continuous robot-motion recording",
+  "rgb_video": "rgb_sequence.mp4",
+  "depth_dir": "depth_frames",
+  "manifest": "manifest.csv",
+  "depth_source": "Blender scene ray intersections, aligned by source camera pose",
+  "intrinsics_rgb_px": {
+    "fx": 1333.33,
+    "fy": 1333.33,
+    "cx": 500.0,
+    "cy": 350.0
+  },
+  "depth_resolution_px": [
+    320,
+    224
+  ],
+  "rgb_resolution_px": [
+    1000,
+    700
+  ]
+}

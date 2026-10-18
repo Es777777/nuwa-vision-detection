@@ -1,0 +1,205 @@
+{
+  "robust": {
+    "blur": {
+      "HoughMulti": {
+        "n": 20,
+        "detected": 16,
+        "success": 15,
+        "success_rate": 0.75,
+        "median_error_px": 3.193409890091235
+      },
+      "FusionV2": {
+        "n": 20,
+        "detected": 16,
+        "success": 15,
+        "success_rate": 0.75,
+        "median_error_px": 3.193409890091235
+      }
+    },
+    "bright": {
+      "HoughMulti": {
+        "n": 20,
+        "detected": 20,
+        "success": 17,
+        "success_rate": 0.85,
+        "median_error_px": 2.048781424404316
+      },
+      "FusionV2": {
+        "n": 20,
+        "detected": 20,
+        "success": 17,
+        "success_rate": 0.85,
+        "median_error_px": 2.048781424404316
+      }
+    },
+    "dark": {
+      "HoughMulti": {
+        "n": 12,
+        "detected": 10,
+        "success": 10,
+        "success_rate": 0.8333333333333334,
+        "median_error_px": 2.992027589691137
+      },
+      "FusionV2": {
+        "n": 12,
+        "detected": 10,
+        "success": 10,
+        "success_rate": 0.8333333333333334,
+        "median_error_px": 2.992027589691137
+      }
+    },
+    "gamma": {
+      "HoughMulti": {
+        "n": 20,
+        "detected": 20,
+        "success": 19,
+        "success_rate": 0.95,
+        "median_error_px": 1.9774535097508616
+      },
+      "FusionV2": {
+        "n": 20,
+        "detected": 20,
+        "success": 19,
+        "success_rate": 0.95,
+        "median_error_px": 1.9774535097508616
+      }
+    },
+    "glare": {
+      "HoughMulti": {
+        "n": 20,
+        "detected": 20,
+        "success": 19,
+        "success_rate": 0.95,
+        "median_error_px": 1.2259984529631556
+      },
+      "FusionV2": {
+        "n": 20,
+        "detected": 20,
+        "success": 19,
+        "success_rate": 0.95,
+        "median_error_px": 1.2259984529631556
+      }
+    },
+    "noise": {
+      "HoughMulti": {
+        "n": 20,
+        "detected": 15,
+        "success": 15,
+        "success_rate": 0.75,
+        "median_error_px": 7.966768531756746
+      },
+      "FusionV2": {
+        "n": 20,
+        "detected": 15,
+        "success": 15,
+        "success_rate": 0.75,
+        "median_error_px": 7.966768531756746
+      }
+    },
+    "normal": {
+      "HoughMulti": {
+        "n": 20,
+        "detected": 20,
+        "success": 20,
+        "success_rate": 1.0,
+        "median_error_px": 2.0190248346831785
+      },
+      "FusionV2": {
+        "n": 20,
+        "detected": 20,
+        "success": 20,
+        "success_rate": 1.0,
+        "median_error_px": 2.0190248346831785
+      }
+    },
+    "occlusion": {
+      "HoughMulti": {
+        "n": 20,
+        "detected": 19,
+        "success": 17,
+        "success_rate": 0.85,
+        "median_error_px": 3.876089675491505
+      },
+      "FusionV2": {
+        "n": 20,
+        "detected": 15,
+        "success": 13,
+        "success_rate": 0.65,
+        "median_error_px": 3.876089675491505
+      }
+    },
+    "side_crop": {
+      "HoughMulti": {
+        "n": 20,
+        "detected": 20,
+        "success": 1,
+        "success_rate": 0.05,
+        "median_error_px": 71.44056415406288
+      },
+      "FusionV2": {
+        "n": 20,
+        "detected": 20,
+        "success": 1,
+        "success_rate": 0.05,
+        "median_error_px": 71.44056415406288
+      }
+    },
+    "tilt": {
+      "HoughMulti": {
+        "n": 20,
+        "detected": 20,
+        "success": 2,
+        "success_rate": 0.1,
+        "median_error_px": 34.56663757034443
+      },
+      "FusionV2": {
+        "n": 20,
+        "detected": 20,
+        "success": 2,
+        "success_rate": 0.1,
+        "median_error_px": 34.56663757034443
+      }
+    }
+  },
+  "criterion": {
+    "HoughMulti": {
+      "n": 192,
+      "success": 135,
+      "success_rate": 0.703125
+    },
+    "FusionV2": {
+      "n": 192,
+      "success": 131,
+      "success_rate": 0.6822916666666666
+    }
+  },
+  "positive": {
+    "HoughMulti": {
+      "n": 60,
+      "detected": 53,
+      "success": 53,
+      "success_rate": 0.8833333333333333,
+      "median_error_px": 2.0489432702932167
+    },
+    "FusionV2": {
+      "n": 60,
+      "detected": 53,
+      "success": 53,
+      "success_rate": 0.8833333333333333,
+      "median_error_px": 2.0489432702932167
+    }
+  },
+  "negative": {
+    "HoughMulti": {
+      "n": 81,
+      "false_positive": 45,
+      "false_positive_rate": 0.5555555555555556
+    },
+    "FusionV2": {
+      "n": 81,
+      "false_positive": 40,
+      "false_positive_rate": 0.49382716049382713
+    }
+  },
+  "decision": "FusionV2 does not pass the strict overall criterion: positive success is tied and negative false positives decrease, but robust success is 131/192 versus HoughMulti 135/192. Keep HoughMulti as RGB baseline; use FusionV2 only as a candidate gate until RGB-D validation."
+}

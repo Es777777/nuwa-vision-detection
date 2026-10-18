@@ -1,0 +1,6 @@
+ball_3d_error_median_m,ball_3d_within_5cm_n,ball_absent_n,ball_detected_n,ball_detection_rate,ball_false_positive_n,ball_false_positive_rate,ball_pixel_error_median_px,ball_present_n,column_absent_n,column_detected_n,column_detection_rate,column_false_positive_n,column_false_positive_rate,column_present_n,column_xy_error_median_m,n,view
+0.00826189700908797,12,0,12,1.0,0,,3.5158060090332217,12,0,12,1.0,0,,12,0.0047468245957941945,12,level
+0.004191827469903875,12,0,12,1.0,0,,2.508606897408444,12,0,12,1.0,0,,12,0.0030500697852574644,12,near
+0.010298378863805146,11,0,12,1.0,0,,4.077509609429813,12,0,12,1.0,0,,12,0.0054377770629964895,12,oblique
+0.007967623783695288,12,0,12,1.0,0,,9.306043698134577,12,0,12,1.0,0,,12,0.010575151252797402,12,top
+0.005069912790240588,12,0,12,1.0,0,,1.6514776384879695,12,0,12,1.0,0,,12,0.004140416555302806,12,upward

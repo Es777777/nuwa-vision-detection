@@ -1,0 +1,32 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# ROS 2 generated workspaces and logs
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+log/
+
+# Local scratch and rendered review files
+tmp/
+
+# Bundled third-party Blender runtime
+tools/blender/
+
+# Generated videos and scene files; image datasets remain tracked
+output/**/*.mp4
+output/**/*.avi
+output/**/*.mov
+output/**/*.mkv
+output/**/*.blend
+output/**/*.blend1
+source_media/video/
+
+# Archives and local backups
+*.zip
+*.tar.gz
+*.bak

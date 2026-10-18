@@ -1,0 +1,249 @@
+{
+  "robust_images": 192,
+  "conditions": {
+    "blur": {
+      "HSV": {
+        "n": 20,
+        "success_rate": 0.0,
+        "median_error_px": 136.60300387848338
+      },
+      "Canny": {
+        "n": 4,
+        "success_rate": 0.5,
+        "median_error_px": 31.819757178250434
+      },
+      "Hough": {
+        "n": 7,
+        "success_rate": 1.0,
+        "median_error_px": 4.368415405763105
+      },
+      "Fusion": {
+        "n": 20,
+        "success_rate": 0.35,
+        "median_error_px": 123.4295417161249
+      }
+    },
+    "bright": {
+      "HSV": {
+        "n": 20,
+        "success_rate": 0.0,
+        "median_error_px": 118.6735321726897
+      },
+      "Canny": {
+        "n": 20,
+        "success_rate": 0.15,
+        "median_error_px": 46.13254999344694
+      },
+      "Hough": {
+        "n": 20,
+        "success_rate": 1.0,
+        "median_error_px": 2.5775075176661097
+      },
+      "Fusion": {
+        "n": 20,
+        "success_rate": 1.0,
+        "median_error_px": 2.5775075176661097
+      }
+    },
+    "dark": {
+      "HSV": {
+        "n": 12,
+        "success_rate": 0.4166666666666667,
+        "median_error_px": 57.11921451564221
+      },
+      "Canny": {
+        "n": 7,
+        "success_rate": 0.2857142857142857,
+        "median_error_px": 37.812361015497125
+      },
+      "Hough": {
+        "n": 3,
+        "success_rate": 0.6666666666666666,
+        "median_error_px": 3.1478999892667385
+      },
+      "Fusion": {
+        "n": 12,
+        "success_rate": 0.5,
+        "median_error_px": 29.412987968420396
+      }
+    },
+    "gamma": {
+      "HSV": {
+        "n": 20,
+        "success_rate": 0.0,
+        "median_error_px": 139.07337329152375
+      },
+      "Canny": {
+        "n": 20,
+        "success_rate": 0.05,
+        "median_error_px": 51.9265856357525
+      },
+      "Hough": {
+        "n": 18,
+        "success_rate": 1.0,
+        "median_error_px": 3.0508794353546014
+      },
+      "Fusion": {
+        "n": 20,
+        "success_rate": 0.9,
+        "median_error_px": 3.4215226313598386
+      }
+    },
+    "glare": {
+      "HSV": {
+        "n": 20,
+        "success_rate": 0.0,
+        "median_error_px": 136.50449801296173
+      },
+      "Canny": {
+        "n": 20,
+        "success_rate": 0.15,
+        "median_error_px": 41.9059203210672
+      },
+      "Hough": {
+        "n": 20,
+        "success_rate": 1.0,
+        "median_error_px": 1.3419220964662897
+      },
+      "Fusion": {
+        "n": 20,
+        "success_rate": 1.0,
+        "median_error_px": 1.3419220964662897
+      }
+    },
+    "noise": {
+      "HSV": {
+        "n": 20,
+        "success_rate": 0.1,
+        "median_error_px": 44.75145780089869
+      },
+      "Canny": {
+        "n": 20,
+        "success_rate": 0.8,
+        "median_error_px": 4.947997427043255
+      },
+      "Hough": {
+        "n": 3,
+        "success_rate": 0.6666666666666666,
+        "median_error_px": 16.824647388706254
+      },
+      "Fusion": {
+        "n": 20,
+        "success_rate": 0.2,
+        "median_error_px": 40.634869252632704
+      }
+    },
+    "normal": {
+      "HSV": {
+        "n": 20,
+        "success_rate": 0.0,
+        "median_error_px": 133.4322086543912
+      },
+      "Canny": {
+        "n": 20,
+        "success_rate": 0.05,
+        "median_error_px": 51.15199386331726
+      },
+      "Hough": {
+        "n": 20,
+        "success_rate": 1.0,
+        "median_error_px": 1.6289064466811394
+      },
+      "Fusion": {
+        "n": 20,
+        "success_rate": 1.0,
+        "median_error_px": 1.6289064466811394
+      }
+    },
+    "occlusion": {
+      "HSV": {
+        "n": 20,
+        "success_rate": 0.6,
+        "median_error_px": 23.32707533101059
+      },
+      "Canny": {
+        "n": 20,
+        "success_rate": 0.05,
+        "median_error_px": 62.69589619668821
+      },
+      "Hough": {
+        "n": 10,
+        "success_rate": 0.9,
+        "median_error_px": 2.521147757809853
+      },
+      "Fusion": {
+        "n": 20,
+        "success_rate": 0.8,
+        "median_error_px": 20.981757635633517
+      }
+    },
+    "side_crop": {
+      "HSV": {
+        "n": 20,
+        "success_rate": 0.0,
+        "median_error_px": 130.40594977358182
+      },
+      "Canny": {
+        "n": 20,
+        "success_rate": 0.15,
+        "median_error_px": 79.64831757152206
+      },
+      "Hough": {
+        "n": 20,
+        "success_rate": 0.0,
+        "median_error_px": 71.66519201264904
+      },
+      "Fusion": {
+        "n": 20,
+        "success_rate": 0.0,
+        "median_error_px": 71.66519201264904
+      }
+    },
+    "tilt": {
+      "HSV": {
+        "n": 20,
+        "success_rate": 0.0,
+        "median_error_px": 137.1035056920672
+      },
+      "Canny": {
+        "n": 20,
+        "success_rate": 0.1,
+        "median_error_px": 48.57902197051685
+      },
+      "Hough": {
+        "n": 20,
+        "success_rate": 0.15,
+        "median_error_px": 36.59584456435959
+      },
+      "Fusion": {
+        "n": 20,
+        "success_rate": 0.15,
+        "median_error_px": 36.59584456435959
+      }
+    }
+  },
+  "random_negative_images": 81,
+  "random_false_positive": {
+    "HSV": {
+      "n": 81,
+      "false_positive": 77,
+      "false_positive_rate": 0.9506172839506173
+    },
+    "Canny": {
+      "n": 81,
+      "false_positive": 78,
+      "false_positive_rate": 0.9629629629629629
+    },
+    "Hough": {
+      "n": 81,
+      "false_positive": 28,
+      "false_positive_rate": 0.345679012345679
+    },
+    "Fusion": {
+      "n": 81,
+      "false_positive": 77,
+      "false_positive_rate": 0.9506172839506173
+    }
+  },
+  "note": "2D RGB benchmark; not D435i 3D accuracy."
+}

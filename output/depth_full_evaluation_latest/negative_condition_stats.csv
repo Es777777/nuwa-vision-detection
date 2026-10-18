@@ -1,0 +1,4 @@
+ball_3d_error_median_m,ball_3d_within_5cm_n,ball_absent_n,ball_detected_n,ball_detection_rate,ball_false_positive_n,ball_false_positive_rate,ball_pixel_error_median_px,ball_present_n,column_absent_n,column_detected_n,column_detection_rate,column_false_positive_n,column_false_positive_rate,column_present_n,column_xy_error_median_m,condition,n
+,0,24,0,,0,0.0,,0,24,0,,0,0.0,0,,empty,24
+,0,30,0,,0,0.0,,0,0,30,1.0,0,,30,0.00523371804328876,no_ball,30
+0.003961782665409334,27,0,27,1.0,0,,1.1065567610541234,27,27,0,,0,0.0,0,,no_column,27

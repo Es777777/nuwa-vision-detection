@@ -1,0 +1,1990 @@
+{
+  "frames": 60,
+  "coordinates_valid_n": 60,
+  "coordinate_frame": "field",
+  "temporal_gate_rejected_frames": 0,
+  "ball_error_median_m": 0.006070690993790253,
+  "ball_error_mean_m": 0.009057054620046514,
+  "ball_error_max_m": 0.07788085246904945,
+  "ball_error_le_5cm_n": 59,
+  "column_xy_error_median_m": 0.0047987009786054635,
+  "grouped": {
+    "view": [
+      {
+        "view": "level",
+        "frames": 12,
+        "coordinate_valid": 12,
+        "detection_rate": 1.0,
+        "ball_error_median_m": 0.008336514910987552,
+        "ball_error_mean_m": 0.009517581049959605,
+        "ball_error_le_5cm_n": 12,
+        "column_xy_error_median_m": 0.0047987009786054635,
+        "temporal_rejected_n": 0
+      },
+      {
+        "view": "near",
+        "frames": 12,
+        "coordinate_valid": 12,
+        "detection_rate": 1.0,
+        "ball_error_median_m": 0.003820338701385267,
+        "ball_error_mean_m": 0.004412704057114117,
+        "ball_error_le_5cm_n": 12,
+        "column_xy_error_median_m": 0.0030166134565459976,
+        "temporal_rejected_n": 0
+      },
+      {
+        "view": "oblique",
+        "frames": 12,
+        "coordinate_valid": 12,
+        "detection_rate": 1.0,
+        "ball_error_median_m": 0.005530232545878658,
+        "ball_error_mean_m": 0.013166839705059932,
+        "ball_error_le_5cm_n": 11,
+        "column_xy_error_median_m": 0.005771493871511267,
+        "temporal_rejected_n": 0
+      },
+      {
+        "view": "top",
+        "frames": 12,
+        "coordinate_valid": 12,
+        "detection_rate": 1.0,
+        "ball_error_median_m": 0.009807083059236076,
+        "ball_error_mean_m": 0.011078109026560548,
+        "ball_error_le_5cm_n": 12,
+        "column_xy_error_median_m": 0.009657747128575353,
+        "temporal_rejected_n": 0
+      },
+      {
+        "view": "upward",
+        "frames": 12,
+        "coordinate_valid": 12,
+        "detection_rate": 1.0,
+        "ball_error_median_m": 0.00586882746751656,
+        "ball_error_mean_m": 0.00711003926153837,
+        "ball_error_le_5cm_n": 12,
+        "column_xy_error_median_m": 0.0040927081973910935,
+        "temporal_rejected_n": 0
+      }
+    ],
+    "camera_height_m": [
+      {
+        "camera_height_m": 0.85,
+        "frames": 12,
+        "coordinate_valid": 12,
+        "detection_rate": 1.0,
+        "ball_error_median_m": 0.00586882746751656,
+        "ball_error_mean_m": 0.00711003926153837,
+        "ball_error_le_5cm_n": 12,
+        "column_xy_error_median_m": 0.0040927081973910935,
+        "temporal_rejected_n": 0
+      },
+      {
+        "camera_height_m": 1.15,
+        "frames": 12,
+        "coordinate_valid": 12,
+        "detection_rate": 1.0,
+        "ball_error_median_m": 0.003820338701385267,
+        "ball_error_mean_m": 0.004412704057114117,
+        "ball_error_le_5cm_n": 12,
+        "column_xy_error_median_m": 0.0030166134565459976,
+        "temporal_rejected_n": 0
+      },
+      {
+        "camera_height_m": 1.5,
+        "frames": 12,
+        "coordinate_valid": 12,
+        "detection_rate": 1.0,
+        "ball_error_median_m": 0.008336514910987552,
+        "ball_error_mean_m": 0.009517581049959605,
+        "ball_error_le_5cm_n": 12,
+        "column_xy_error_median_m": 0.0047987009786054635,
+        "temporal_rejected_n": 0
+      },
+      {
+        "camera_height_m": 2.2,
+        "frames": 12,
+        "coordinate_valid": 12,
+        "detection_rate": 1.0,
+        "ball_error_median_m": 0.005530232545878658,
+        "ball_error_mean_m": 0.013166839705059932,
+        "ball_error_le_5cm_n": 11,
+        "column_xy_error_median_m": 0.005771493871511267,
+        "temporal_rejected_n": 0
+      },
+      {
+        "camera_height_m": 3.5,
+        "frames": 12,
+        "coordinate_valid": 12,
+        "detection_rate": 1.0,
+        "ball_error_median_m": 0.009807083059236076,
+        "ball_error_mean_m": 0.011078109026560548,
+        "ball_error_le_5cm_n": 12,
+        "column_xy_error_median_m": 0.009657747128575353,
+        "temporal_rejected_n": 0
+      }
+    ]
+  },
+  "sequence_note": "60 ordered fixed-pose Blender views, not continuous robot-motion recording",
+  "rows": [
+    {
+      "frame": 0,
+      "source": "001_top_h3.50.png",
+      "view": "top",
+      "camera_height_m": 3.5,
+      "camera_x_m": 4.5,
+      "camera_y_m": 0.0,
+      "camera_z_m": 3.5,
+      "ball_detected": true,
+      "state": "ON_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        -0.007563200767582323,
+        -0.006390882565584184,
+        1.7449231439719155
+      ],
+      "column_xy_center_field_m": [
+        0.007889683247283306,
+        0.004804345524209708,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.009991263891276865,
+      "column_xy_error_m": 0.00923736096828833
+    },
+    {
+      "frame": 1,
+      "source": "002_top_h3.50.png",
+      "view": "top",
+      "camera_height_m": 3.5,
+      "camera_x_m": 3.897114317029974,
+      "camera_y_m": 2.2499999999999996,
+      "camera_z_m": 3.5,
+      "ball_detected": true,
+      "state": "ON_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        0.0020508326116912556,
+        -0.004118425383328628,
+        1.7453994318377388
+      ],
+      "column_xy_center_field_m": [
+        0.004520942342661633,
+        0.008189174592846286,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.004944192930234852,
+      "column_xy_error_m": 0.009354223654467003
+    },
+    {
+      "frame": 2,
+      "source": "003_top_h3.50.png",
+      "view": "top",
+      "camera_height_m": 3.5,
+      "camera_x_m": 2.2500000000000004,
+      "camera_y_m": 3.8971143170299736,
+      "camera_z_m": 3.5,
+      "ball_detected": true,
+      "state": "ON_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        0.0009716870676501621,
+        -0.0008405580521642086,
+        1.7454258327805512
+      ],
+      "column_xy_center_field_m": [
+        -5.462206041035095e-05,
+        0.009465045211332918,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.002241585838440836,
+      "column_xy_error_m": 0.00946520281991145
+    },
+    {
+      "frame": 3,
+      "source": "004_top_h3.50.png",
+      "view": "top",
+      "camera_height_m": 3.5,
+      "camera_x_m": 2.755455298081545e-16,
+      "camera_y_m": 4.5,
+      "camera_z_m": 3.5,
+      "ball_detected": true,
+      "state": "ON_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        -0.028795574300208397,
+        0.0008867843476627613,
+        1.7384451901002258
+      ],
+      "column_xy_center_field_m": [
+        -0.004599080046734498,
+        0.008843903230949142,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.029264827991271173,
+      "column_xy_error_m": 0.00996825770306246
+    },
+    {
+      "frame": 4,
+      "source": "005_top_h3.50.png",
+      "view": "top",
+      "camera_height_m": 3.5,
+      "camera_x_m": -2.249999999999999,
+      "camera_y_m": 3.897114317029974,
+      "camera_z_m": 3.5,
+      "ball_detected": true,
+      "state": "ON_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        0.0012137881603546674,
+        0.00042122665903221446,
+        1.7454258327805512
+      ],
+      "column_xy_center_field_m": [
+        -0.008343155985451312,
+        0.005326926206169213,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.0022415858384408245,
+      "column_xy_error_m": 0.00989870671368459
+    },
+    {
+      "frame": 5,
+      "source": "006_top_h3.50.png",
+      "view": "top",
+      "camera_height_m": 3.5,
+      "camera_x_m": -3.897114317029974,
+      "camera_y_m": 2.2499999999999996,
+      "camera_z_m": 3.5,
+      "ball_detected": true,
+      "state": "ON_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        -0.012768379293717658,
+        -0.010499612140786319,
+        1.7294299643420237
+      ],
+      "column_xy_center_field_m": [
+        -0.0096259137350968,
+        0.00015013569287691125,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.021765830020705243,
+      "column_xy_error_m": 0.009627084499566877
+    },
+    {
+      "frame": 6,
+      "source": "007_top_h3.50.png",
+      "view": "top",
+      "camera_height_m": 3.5,
+      "camera_x_m": -4.5,
+      "camera_y_m": 5.51091059616309e-16,
+      "camera_z_m": 3.5,
+      "ball_detected": true,
+      "state": "ON_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        0.006942487909240569,
+        0.002482993737455334,
+        1.7497725847491352
+      ],
+      "column_xy_center_field_m": [
+        -0.00856602836730997,
+        -0.004598268160213779,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.009622902227195286,
+      "column_xy_error_m": 0.009722186588560977
+    },
+    {
+      "frame": 7,
+      "source": "008_top_h3.50.png",
+      "view": "top",
+      "camera_height_m": 3.5,
+      "camera_x_m": -3.897114317029975,
+      "camera_y_m": -2.2499999999999987,
+      "camera_z_m": 3.5,
+      "ball_detected": true,
+      "state": "ON_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        -0.009254132449510344,
+        0.0077708638413129805,
+        1.7324147058365147
+      ],
+      "column_xy_center_field_m": [
+        -0.005773890181323773,
+        -0.008344077046663172,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.01645873343188264,
+      "column_xy_error_m": 0.010146991159286495
+    },
+    {
+      "frame": 8,
+      "source": "009_top_h3.50.png",
+      "view": "top",
+      "camera_height_m": 3.5,
+      "camera_x_m": -2.2500000000000018,
+      "camera_y_m": -3.8971143170299727,
+      "camera_z_m": 3.5,
+      "ball_detected": true,
+      "state": "ON_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        -0.002211920655705857,
+        -0.001278607349683547,
+        1.7427068945548647
+      ],
+      "column_xy_center_field_m": [
+        -0.0004255789525337927,
+        -0.009897722353534793,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.002702872753216709,
+      "column_xy_error_m": 0.009906867579235229
+    },
+    {
+      "frame": 9,
+      "source": "010_top_h3.50.png",
+      "view": "top",
+      "camera_height_m": 3.5,
+      "camera_x_m": -8.266365894244633e-16,
+      "camera_y_m": -4.5,
+      "camera_z_m": 3.5,
+      "ball_detected": true,
+      "state": "ON_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        0.000924547624927757,
+        0.008674760017449046,
+        1.7544729445565657
+      ],
+      "column_xy_center_field_m": [
+        0.0046632469386980804,
+        -0.008492314856360927,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.013948717817437412,
+      "column_xy_error_m": 0.009688409757583828
+    },
+    {
+      "frame": 10,
+      "source": "011_top_h3.50.png",
+      "view": "top",
+      "camera_height_m": 3.5,
+      "camera_x_m": 2.2500000000000004,
+      "camera_y_m": -3.8971143170299736,
+      "camera_z_m": 3.5,
+      "ball_detected": true,
+      "state": "ON_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        -0.002024230888801881,
+        0.0010141856449381592,
+        1.7484621473664121
+      ],
+      "column_xy_center_field_m": [
+        0.008129093992577574,
+        -0.005056818951863842,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.005373430136709717,
+      "column_xy_error_m": 0.009573587992601839
+    },
+    {
+      "frame": 11,
+      "source": "012_top_h3.50.png",
+      "view": "top",
+      "camera_height_m": 3.5,
+      "camera_x_m": 3.8971143170299727,
+      "camera_y_m": -2.2500000000000018,
+      "camera_z_m": 3.5,
+      "ball_detected": true,
+      "state": "ON_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        -0.004895009166721476,
+        0.007737323216221892,
+        1.7546793630395434
+      ],
+      "column_xy_center_field_m": [
+        0.009272914418700928,
+        0.0002216583876501789,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.014381365441915015,
+      "column_xy_error_m": 0.009275563285179356
+    },
+    {
+      "frame": 12,
+      "source": "013_oblique_h2.20.png",
+      "view": "oblique",
+      "camera_height_m": 2.2,
+      "camera_x_m": 4.5,
+      "camera_y_m": 0.0,
+      "camera_z_m": 2.2,
+      "ball_detected": true,
+      "state": "ON_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        0.00428634355315527,
+        -0.0012309897922787626,
+        1.7405011989728139
+      ],
+      "column_xy_center_field_m": [
+        0.0032716061431926602,
+        0.0044752655745086065,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.005424253576783553,
+      "column_xy_error_m": 0.005543591680360107
+    },
+    {
+      "frame": 13,
+      "source": "014_oblique_h2.20.png",
+      "view": "oblique",
+      "camera_height_m": 2.2,
+      "camera_x_m": 3.897114317029974,
+      "camera_y_m": 2.2499999999999996,
+      "camera_z_m": 2.2,
+      "ball_detected": true,
+      "state": "ON_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        0.004325942777313685,
+        0.001075652444333386,
+        1.740500774419425
+      ],
+      "column_xy_center_field_m": [
+        0.00047605269294032743,
+        0.005476528153213218,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.005422903380895466,
+      "column_xy_error_m": 0.005497179893308269
+    },
+    {
+      "frame": 14,
+      "source": "015_oblique_h2.20.png",
+      "view": "oblique",
+      "camera_height_m": 2.2,
+      "camera_x_m": 2.2500000000000004,
+      "camera_y_m": 3.8971143170299736,
+      "camera_z_m": 2.2,
+      "ball_detected": true,
+      "state": "ON_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        0.0003256063522134589,
+        0.004373391899173296,
+        1.7372404097421668
+      ],
+      "column_xy_center_field_m": [
+        -0.0021157974767351258,
+        0.0054029262934566676,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.007716024904170156,
+      "column_xy_error_m": 0.005802431515759934
+    },
+    {
+      "frame": 15,
+      "source": "016_oblique_h2.20.png",
+      "view": "oblique",
+      "camera_height_m": 2.2,
+      "camera_x_m": 2.755455298081545e-16,
+      "camera_y_m": 4.5,
+      "camera_z_m": 2.2,
+      "ball_detected": true,
+      "state": "ON_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        -0.001908886641130765,
+        0.0037895279075623733,
+        1.7437089107314379
+      ],
+      "column_xy_center_field_m": [
+        -0.004398557486518641,
+        0.003902270968032036,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.004244849948834865,
+      "column_xy_error_m": 0.0058800532880370114
+    },
+    {
+      "frame": 16,
+      "source": "017_oblique_h2.20.png",
+      "view": "oblique",
+      "camera_height_m": 2.2,
+      "camera_x_m": -2.249999999999999,
+      "camera_y_m": 3.897114317029974,
+      "camera_z_m": 2.2,
+      "ball_detected": true,
+      "state": "ON_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        -0.003544233871914937,
+        0.002321716821883424,
+        1.7437111757721957
+      ],
+      "column_xy_center_field_m": [
+        -0.005700984682183106,
+        0.0009554857762158718,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.0042387371044620755,
+      "column_xy_error_m": 0.0057804999277776365
+    },
+    {
+      "frame": 17,
+      "source": "018_oblique_h2.20.png",
+      "view": "oblique",
+      "camera_height_m": 2.2,
+      "camera_x_m": -3.897114317029974,
+      "camera_y_m": 2.2499999999999996,
+      "camera_z_m": 2.2,
+      "ball_detected": true,
+      "state": "ON_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        -0.0027654838868484966,
+        0.003022520424568853,
+        1.7372183273798063
+      ],
+      "column_xy_center_field_m": [
+        -0.005223992880421495,
+        -0.0022231339750592542,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.007574223780165223,
+      "column_xy_error_m": 0.005677360855693182
+    },
+    {
+      "frame": 18,
+      "source": "019_oblique_h2.20.png",
+      "view": "oblique",
+      "camera_height_m": 2.2,
+      "camera_x_m": -4.5,
+      "camera_y_m": 5.51091059616309e-16,
+      "camera_z_m": 2.2,
+      "ball_detected": true,
+      "state": "ON_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        -0.004328006982365018,
+        -0.0019062835372702384,
+        1.7405228324143696
+      ],
+      "column_xy_center_field_m": [
+        -0.0036280697324034715,
+        -0.004476982894502024,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.005636211514973763,
+      "column_xy_error_m": 0.005762487815244898
+    },
+    {
+      "frame": 19,
+      "source": "020_oblique_h2.20.png",
+      "view": "oblique",
+      "camera_height_m": 2.2,
+      "camera_x_m": -3.897114317029975,
+      "camera_y_m": -2.2499999999999987,
+      "camera_z_m": 2.2,
+      "ball_detected": true,
+      "state": "ON_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        -0.003854102418190841,
+        -0.000808327395894537,
+        1.7436935973287209
+      ],
+      "column_xy_center_field_m": [
+        -0.0012327773302283468,
+        -0.005765696294823729,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.003939345306037765,
+      "column_xy_error_m": 0.005896015070373294
+    },
+    {
+      "frame": 20,
+      "source": "021_oblique_h2.20.png",
+      "view": "oblique",
+      "camera_height_m": 2.2,
+      "camera_x_m": -2.2500000000000018,
+      "camera_y_m": -3.8971143170299727,
+      "camera_z_m": 2.2,
+      "ball_detected": true,
+      "state": "OFF_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        -0.04912695482023555,
+        0.00502079290386126,
+        1.6833663929286724
+      ],
+      "column_xy_center_field_m": [
+        0.0019479919205117003,
+        -0.005459183623415145,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.07788085246904945,
+      "column_xy_error_m": 0.005796322830600706
+    },
+    {
+      "frame": 21,
+      "source": "022_oblique_h2.20.png",
+      "view": "oblique",
+      "camera_height_m": 2.2,
+      "camera_x_m": -8.266365894244633e-16,
+      "camera_y_m": -4.5,
+      "camera_z_m": 2.2,
+      "ball_detected": true,
+      "state": "ON_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        -0.0011873137648480078,
+        0.0003539646769814553,
+        1.7593942821304316
+      ],
+      "column_xy_center_field_m": [
+        0.004481439664000008,
+        -0.003501080228347015,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.01585377816623398,
+      "column_xy_error_m": 0.005686902867765098
+    },
+    {
+      "frame": 22,
+      "source": "023_oblique_h2.20.png",
+      "view": "oblique",
+      "camera_height_m": 2.2,
+      "camera_x_m": 2.2500000000000004,
+      "camera_y_m": -3.8971143170299736,
+      "camera_z_m": 2.2,
+      "ball_detected": true,
+      "state": "ON_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        0.001075652444333386,
+        -0.004325942777313685,
+        1.740500774419425
+      ],
+      "column_xy_center_field_m": [
+        0.005792798004477075,
+        -0.0011493126020765722,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.005422903380895466,
+      "column_xy_error_m": 0.005905711487870501
+    },
+    {
+      "frame": 23,
+      "source": "024_oblique_h2.20.png",
+      "view": "oblique",
+      "camera_height_m": 2.2,
+      "camera_x_m": 3.8971143170299727,
+      "camera_y_m": -2.2500000000000018,
+      "camera_z_m": 2.2,
+      "ball_detected": true,
+      "state": "ON_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        -0.003527506682985848,
+        -0.006555913129411728,
+        1.7562040755019463
+      ],
+      "column_xy_center_field_m": [
+        0.005202550515890014,
+        0.0021238418870769236,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.014647992928217415,
+      "column_xy_error_m": 0.0056193626179211744
+    },
+    {
+      "frame": 24,
+      "source": "025_level_h1.50.png",
+      "view": "level",
+      "camera_height_m": 1.5,
+      "camera_x_m": 4.5,
+      "camera_y_m": 0.0,
+      "camera_z_m": 1.5,
+      "ball_detected": true,
+      "state": "ON_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        0.0045076227187905715,
+        -0.0012134085916016757,
+        1.7384607485510606
+      ],
+      "column_xy_center_field_m": [
+        0.0016385365559283232,
+        0.004516969173113599,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.0069346865504511445,
+      "column_xy_error_m": 0.004804977893390561
+    },
+    {
+      "frame": 25,
+      "source": "026_level_h1.50.png",
+      "view": "level",
+      "camera_height_m": 1.5,
+      "camera_x_m": 3.897114317029974,
+      "camera_y_m": 2.2499999999999996,
+      "camera_z_m": 1.5,
+      "ball_detected": true,
+      "state": "ON_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        0.004512310789816176,
+        0.0012041053618374598,
+        1.7384606819948605
+      ],
+      "column_xy_center_field_m": [
+        -0.0008207152404814178,
+        0.004750305892651838,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.006936162886716131,
+      "column_xy_error_m": 0.004820682480699309
+    },
+    {
+      "frame": 26,
+      "source": "027_level_h1.50.png",
+      "view": "level",
+      "camera_height_m": 1.5,
+      "camera_x_m": 2.2500000000000004,
+      "camera_y_m": 3.8971143170299736,
+      "camera_z_m": 1.5,
+      "ball_detected": true,
+      "state": "ON_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        0.0006297073252432561,
+        0.004899174566649567,
+        1.7384777224431587
+      ],
+      "column_xy_center_field_m": [
+        -0.0030867596810653006,
+        0.0037035066359347724,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.007107987972416275,
+      "column_xy_error_m": 0.004821208015742865
+    },
+    {
+      "frame": 27,
+      "source": "028_level_h1.50.png",
+      "view": "level",
+      "camera_height_m": 1.5,
+      "camera_x_m": 2.755455298081545e-16,
+      "camera_y_m": 4.5,
+      "camera_z_m": 1.5,
+      "ball_detected": true,
+      "state": "ON_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        -0.008138831309647586,
+        0.004413388597785506,
+        1.7319644619686003
+      ],
+      "column_xy_center_field_m": [
+        -0.004514559138424695,
+        0.0017460678665556627,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.01486096271539961,
+      "column_xy_error_m": 0.004840454235808057
+    },
+    {
+      "frame": 28,
+      "source": "029_level_h1.50.png",
+      "view": "level",
+      "camera_height_m": 1.5,
+      "camera_x_m": -2.249999999999999,
+      "camera_y_m": 3.897114317029974,
+      "camera_z_m": 1.5,
+      "ball_detected": true,
+      "state": "ON_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        -0.0012708837091466307,
+        0.004625796761229761,
+        1.7449911465355235
+      ],
+      "column_xy_center_field_m": [
+        -0.004770603151197779,
+        -0.0008085570824373743,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.0049979181277594025,
+      "column_xy_error_m": 0.0048386381329644625
+    },
+    {
+      "frame": 29,
+      "source": "030_level_h1.50.png",
+      "view": "level",
+      "camera_height_m": 1.5,
+      "camera_x_m": -3.897114317029974,
+      "camera_y_m": 2.2499999999999996,
+      "camera_z_m": 1.5,
+      "ball_detected": true,
+      "state": "ON_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        -0.004899174566649567,
+        0.0006297073252432561,
+        1.7384777224431587
+      ],
+      "column_xy_center_field_m": [
+        -0.0037100946317806882,
+        -0.0030781281004496047,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.007107987972416275,
+      "column_xy_error_m": 0.004820754586114644
+    },
+    {
+      "frame": 30,
+      "source": "031_level_h1.50.png",
+      "view": "level",
+      "camera_height_m": 1.5,
+      "camera_x_m": -4.5,
+      "camera_y_m": 5.51091059616309e-16,
+      "camera_z_m": 1.5,
+      "ball_detected": true,
+      "state": "ON_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        -0.004434937239336634,
+        0.0012117651570140056,
+        1.7352013209589345
+      ],
+      "column_xy_center_field_m": [
+        -0.0017121164062199369,
+        -0.004476157483717148,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.00956504184955883,
+      "column_xy_error_m": 0.004792424063820365
+    },
+    {
+      "frame": 31,
+      "source": "032_level_h1.50.png",
+      "view": "level",
+      "camera_height_m": 1.5,
+      "camera_x_m": -3.897114317029975,
+      "camera_y_m": -2.2499999999999987,
+      "camera_z_m": 1.5,
+      "ball_detected": true,
+      "state": "ON_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        -0.0029945173933234592,
+        -0.003928189606468013,
+        1.7384777386111292
+      ],
+      "column_xy_center_field_m": [
+        0.0006752694310342215,
+        -0.004738710593956547,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.00710793169578583,
+      "column_xy_error_m": 0.004786581963966072
+    },
+    {
+      "frame": 32,
+      "source": "033_level_h1.50.png",
+      "view": "level",
+      "camera_height_m": 1.5,
+      "camera_x_m": -2.2500000000000018,
+      "camera_y_m": -3.8971143170299727,
+      "camera_z_m": 1.5,
+      "ball_detected": true,
+      "state": "ON_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        -0.003394774445582449,
+        -0.0034840871753107905,
+        1.754774591875208
+      ],
+      "column_xy_center_field_m": [
+        0.00280263589598539,
+        -0.0038816371211248014,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.012197584142888103,
+      "column_xy_error_m": 0.004787679469801615
+    },
+    {
+      "frame": 33,
+      "source": "034_level_h1.50.png",
+      "view": "level",
+      "camera_height_m": 1.5,
+      "camera_x_m": -8.266365894244633e-16,
+      "camera_y_m": -4.5,
+      "camera_z_m": 1.5,
+      "ball_detected": true,
+      "state": "ON_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        -0.0011902608001042037,
+        -0.0037878573882199618,
+        1.7580805691197487
+      ],
+      "column_xy_center_field_m": [
+        0.004376657848573679,
+        -0.0019028264965688796,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.01502566025548942,
+      "column_xy_error_m": 0.0047724084694759925
+    },
+    {
+      "frame": 34,
+      "source": "035_level_h1.50.png",
+      "view": "level",
+      "camera_height_m": 1.5,
+      "camera_x_m": 2.2500000000000004,
+      "camera_y_m": -3.8971143170299736,
+      "camera_z_m": 1.5,
+      "ball_detected": true,
+      "state": "ON_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        -0.001863906952726424,
+        -0.005391240647869555,
+        1.7547973870905202
+      ],
+      "column_xy_center_field_m": [
+        0.00471985602811295,
+        0.0007942060492319818,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.0125764781575296,
+      "column_xy_error_m": 0.004786209792179071
+    },
+    {
+      "frame": 35,
+      "source": "036_level_h1.50.png",
+      "view": "level",
+      "camera_height_m": 1.5,
+      "camera_x_m": 3.8971143170299727,
+      "camera_y_m": -2.2500000000000018,
+      "camera_z_m": 1.5,
+      "ball_detected": true,
+      "state": "ON_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        0.0010795296302861246,
+        -0.0056090107836319625,
+        1.7515431107797241
+      ],
+      "column_xy_center_field_m": [
+        0.003530321727911045,
+        0.003209777783005673,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.009792570273104633,
+      "column_xy_error_m": 0.004771356716787967
+    },
+    {
+      "frame": 36,
+      "source": "037_upward_h0.85.png",
+      "view": "upward",
+      "camera_height_m": 0.85,
+      "camera_x_m": 3.5,
+      "camera_y_m": 0.0,
+      "camera_z_m": 0.85,
+      "ball_detected": true,
+      "state": "ON_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        0.004797815336784694,
+        -0.00592479304608609,
+        1.745703746212543
+      ],
+      "column_xy_center_field_m": [
+        0.0021666400069659704,
+        0.003596933663490662,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.007911662332991792,
+      "column_xy_error_m": 0.004199078553604094
+    },
+    {
+      "frame": 37,
+      "source": "038_upward_h0.85.png",
+      "view": "upward",
+      "camera_height_m": 0.85,
+      "camera_x_m": 3.0310889132455356,
+      "camera_y_m": 1.7499999999999998,
+      "camera_z_m": 0.85,
+      "ball_detected": true,
+      "state": "ON_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        0.0034659038191366953,
+        0.0009052088521162016,
+        1.7379652692063117
+      ],
+      "column_xy_center_field_m": [
+        0.00013497563410783957,
+        0.00422695854821175,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.006667692371772094,
+      "column_xy_error_m": 0.0042291130264043774
+    },
+    {
+      "frame": 38,
+      "source": "039_upward_h0.85.png",
+      "view": "upward",
+      "camera_height_m": 0.85,
+      "camera_x_m": 1.7500000000000004,
+      "camera_y_m": 3.031088913245535,
+      "camera_z_m": 0.85,
+      "ball_detected": true,
+      "state": "ON_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        0.0027941467209751103,
+        0.002925868546419963,
+        1.7405334938861738
+      ],
+      "column_xy_center_field_m": [
+        -0.001968387224606717,
+        0.0037034206336068187,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.005069912790240777,
+      "column_xy_error_m": 0.004194028213474447
+    },
+    {
+      "frame": 39,
+      "source": "040_upward_h0.85.png",
+      "view": "upward",
+      "camera_height_m": 0.85,
+      "camera_x_m": 2.143131898507868e-16,
+      "camera_y_m": 3.5,
+      "camera_z_m": 0.85,
+      "ball_detected": true,
+      "state": "ON_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        0.0009567457509645206,
+        0.0039291864584796166,
+        1.740533570092412
+      ],
+      "column_xy_center_field_m": [
+        -0.003542192213217849,
+        0.002143025585157207,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.005068476696112323,
+      "column_xy_error_m": 0.0041400101852555335
+    },
+    {
+      "frame": 40,
+      "source": "041_upward_h0.85.png",
+      "view": "upward",
+      "camera_height_m": 0.85,
+      "camera_x_m": -1.7499999999999991,
+      "camera_y_m": 3.0310889132455356,
+      "camera_z_m": 0.85,
+      "ball_detected": true,
+      "state": "ON_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        -0.0009052088521162016,
+        0.0034659038191362512,
+        1.7379652692063117
+      ],
+      "column_xy_center_field_m": [
+        -0.004077086026050811,
+        6.515185839609666e-06,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.0066676923717718635,
+      "column_xy_error_m": 0.004077091231682868
+    },
+    {
+      "frame": 41,
+      "source": "042_upward_h0.85.png",
+      "view": "upward",
+      "camera_height_m": 0.85,
+      "camera_x_m": -3.0310889132455356,
+      "camera_y_m": 1.7499999999999998,
+      "camera_z_m": 0.85,
+      "ball_detected": true,
+      "state": "ON_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        -0.001610745524173396,
+        0.007785460181348514,
+        1.7482828212149841
+      ],
+      "column_xy_center_field_m": [
+        -0.0034974874235335416,
+        -0.002049983905862904,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.009232548302282501,
+      "column_xy_error_m": 0.004053992142576526
+    },
+    {
+      "frame": 42,
+      "source": "043_upward_h0.85.png",
+      "view": "upward",
+      "camera_height_m": 0.85,
+      "camera_x_m": -3.5,
+      "camera_y_m": 4.286263797015736e-16,
+      "camera_z_m": 0.85,
+      "ball_detected": true,
+      "state": "ON_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        -0.0010838730945166297,
+        0.003381210726297897,
+        1.7303181633960905
+      ],
+      "column_xy_center_field_m": [
+        -0.001869679698336976,
+        -0.0035977218815906147,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.013737619540023711,
+      "column_xy_error_m": 0.004054541270186969
+    },
+    {
+      "frame": 43,
+      "source": "044_upward_h0.85.png",
+      "view": "upward",
+      "camera_height_m": 0.85,
+      "camera_x_m": -3.0310889132455356,
+      "camera_y_m": -1.7499999999999991,
+      "camera_z_m": 0.85,
+      "ball_detected": true,
+      "state": "ON_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        -0.0030866477327600172,
+        -0.0035372874742083393,
+        1.7431132444151327
+      ],
+      "column_xy_center_field_m": [
+        9.089595674631686e-05,
+        -0.004051033753844274,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.004718700056759191,
+      "column_xy_error_m": 0.004052053374492796
+    },
+    {
+      "frame": 44,
+      "source": "045_upward_h0.85.png",
+      "view": "upward",
+      "camera_height_m": 0.85,
+      "camera_x_m": -1.7500000000000016,
+      "camera_y_m": -3.0310889132455343,
+      "camera_z_m": 0.85,
+      "ball_detected": true,
+      "state": "ON_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        -0.00804393325743824,
+        -0.002035046193554546,
+        1.7508682116794114
+      ],
+      "column_xy_center_field_m": [
+        0.002055524109226231,
+        -0.003471792787463266,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.011037814626892226,
+      "column_xy_error_m": 0.004034665354486323
+    },
+    {
+      "frame": 45,
+      "source": "046_upward_h0.85.png",
+      "view": "upward",
+      "camera_height_m": 0.85,
+      "camera_x_m": -6.429395695523604e-16,
+      "camera_y_m": -3.5,
+      "camera_z_m": 0.85,
+      "ball_detected": true,
+      "state": "ON_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        -0.0009567457509645211,
+        -0.0039291864584796166,
+        1.740533570092412
+      ],
+      "column_xy_center_field_m": [
+        0.003558558473953433,
+        -0.0018635069343454942,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.005068476696112323,
+      "column_xy_error_m": 0.004016963592926817
+    },
+    {
+      "frame": 46,
+      "source": "047_upward_h0.85.png",
+      "view": "upward",
+      "camera_height_m": 0.85,
+      "camera_x_m": 1.7500000000000004,
+      "camera_y_m": -3.031088913245535,
+      "camera_z_m": 0.85,
+      "ball_detected": true,
+      "state": "ON_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        0.0011370659243408188,
+        -0.0038827827286374017,
+        1.7405335680636858
+      ],
+      "column_xy_center_field_m": [
+        0.0041072378966186185,
+        -9.451193752603448e-05,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.005069962563261256,
+      "column_xy_error_m": 0.00410832516309932
+    },
+    {
+      "frame": 47,
+      "source": "048_upward_h0.85.png",
+      "view": "upward",
+      "camera_height_m": 0.85,
+      "camera_x_m": 3.0310889132455343,
+      "camera_y_m": -1.7500000000000016,
+      "camera_z_m": 0.85,
+      "ball_detected": true,
+      "state": "ON_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        0.002925868546419519,
+        -0.0027941467209748883,
+        1.7405334938861738
+      ],
+      "column_xy_center_field_m": [
+        0.003601757742829915,
+        0.0019886983234932328,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.005069912790240398,
+      "column_xy_error_m": 0.004114314020575002
+    },
+    {
+      "frame": 48,
+      "source": "049_near_h1.15.png",
+      "view": "near",
+      "camera_height_m": 1.15,
+      "camera_x_m": 2.5,
+      "camera_y_m": 0.0,
+      "camera_z_m": 1.15,
+      "ball_detected": true,
+      "state": "ON_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        0.0026954478209275656,
+        0.0010778068446602364,
+        1.7388036286493165
+      ],
+      "column_xy_center_field_m": [
+        0.0017235991071157734,
+        0.002516356932229215,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.005597033535971443,
+      "column_xy_error_m": 0.003050056735935959
+    },
+    {
+      "frame": 49,
+      "source": "050_near_h1.15.png",
+      "view": "near",
+      "camera_height_m": 1.15,
+      "camera_x_m": 2.165063509461097,
+      "camera_y_m": 1.2499999999999998,
+      "camera_z_m": 1.15,
+      "ball_detected": true,
+      "state": "ON_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        0.0026543514121812883,
+        0.0007711570968271797,
+        1.73879958804409
+      ],
+      "column_xy_center_field_m": [
+        0.00019577784387116425,
+        0.003040426315061521,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.005529794785928383,
+      "column_xy_error_m": 0.0030467230168608073
+    },
+    {
+      "frame": 50,
+      "source": "051_near_h1.15.png",
+      "view": "near",
+      "camera_height_m": 1.15,
+      "camera_x_m": 1.2500000000000002,
+      "camera_y_m": 2.1650635094610964,
+      "camera_z_m": 1.15,
+      "ball_detected": true,
+      "state": "ON_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        0.002112613885857373,
+        0.002333458158698676,
+        1.7424288528879301
+      ],
+      "column_xy_center_field_m": [
+        -0.001353422291923669,
+        0.0027252840301816884,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.0033547103031268534,
+      "column_xy_error_m": 0.00304284816338891
+    },
+    {
+      "frame": 51,
+      "source": "052_near_h1.15.png",
+      "view": "near",
+      "camera_height_m": 1.15,
+      "camera_x_m": 1.5308084989341916e-16,
+      "camera_y_m": 2.5,
+      "camera_z_m": 1.15,
+      "ball_detected": true,
+      "state": "ON_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        0.0023953918960591984,
+        0.002660343432312917,
+        1.7387940571464144
+      ],
+      "column_xy_center_field_m": [
+        -0.0025310670060931344,
+        0.0016656334063883532,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.005983870417177871,
+      "column_xy_error_m": 0.003029956242887037
+    },
+    {
+      "frame": 52,
+      "source": "053_near_h1.15.png",
+      "view": "near",
+      "camera_height_m": 1.15,
+      "camera_x_m": -1.2499999999999996,
+      "camera_y_m": 2.165063509461097,
+      "camera_z_m": 1.15,
+      "ball_detected": true,
+      "state": "ON_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        -0.002578468365542763,
+        0.0023179200324223714,
+        1.7442525727209068
+      ],
+      "column_xy_center_field_m": [
+        -0.003012757584815354,
+        0.0001654783516682294,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.0035300984640098836,
+      "column_xy_error_m": 0.0030172986842096493
+    },
+    {
+      "frame": 53,
+      "source": "054_near_h1.15.png",
+      "view": "near",
+      "camera_height_m": 1.15,
+      "camera_x_m": -2.165063509461097,
+      "camera_y_m": 1.2499999999999998,
+      "camera_z_m": 1.15,
+      "ball_detected": true,
+      "state": "ON_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        -0.0032154187701558534,
+        0.0006137323270456463,
+        1.7424330049771752
+      ],
+      "column_xy_center_field_m": [
+        -0.002688533340666675,
+        -0.0013664039216617144,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.0034715825360207096,
+      "column_xy_error_m": 0.003015836733148667
+    },
+    {
+      "frame": 54,
+      "source": "055_near_h1.15.png",
+      "view": "near",
+      "camera_height_m": 1.15,
+      "camera_x_m": -2.5,
+      "camera_y_m": 3.061616997868383e-16,
+      "camera_z_m": 1.15,
+      "ball_detected": true,
+      "state": "ON_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        -0.002890011283706695,
+        -0.004553021889847363,
+        1.74061699091753
+      ],
+      "column_xy_center_field_m": [
+        -0.001665194168497238,
+        -0.0025145479639434587,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.006157511570402637,
+      "column_xy_error_m": 0.0030159282288823456
+    },
+    {
+      "frame": 55,
+      "source": "056_near_h1.15.png",
+      "view": "near",
+      "camera_height_m": 1.15,
+      "camera_x_m": -2.1650635094610973,
+      "camera_y_m": -1.2499999999999993,
+      "camera_z_m": 1.15,
+      "ball_detected": true,
+      "state": "ON_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        -0.0029974733943243237,
+        -0.0009638425393589944,
+        1.7424289849838015
+      ],
+      "column_xy_center_field_m": [
+        -0.00019218286383622632,
+        -0.00301317367511697,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.0033555103215612237,
+      "column_xy_error_m": 0.0030192962507131034
+    },
+    {
+      "frame": 56,
+      "source": "057_near_h1.15.png",
+      "view": "near",
+      "camera_height_m": 1.15,
+      "camera_x_m": -1.250000000000001,
+      "camera_y_m": -2.165063509461096,
+      "camera_z_m": 1.15,
+      "ball_detected": true,
+      "state": "ON_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        -0.0006137323270454242,
+        -0.0032154187701558534,
+        1.7424330049771752
+      ],
+      "column_xy_center_field_m": [
+        0.0013640178162732217,
+        -0.0026615865895683356,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.00347158253602067,
+      "column_xy_error_m": 0.0029907503702049044
+    },
+    {
+      "frame": 57,
+      "source": "058_near_h1.15.png",
+      "view": "near",
+      "camera_height_m": 1.15,
+      "camera_x_m": -4.592425496802574e-16,
+      "camera_y_m": -2.5,
+      "camera_z_m": 1.15,
+      "ball_detected": true,
+      "state": "ON_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        -0.0006680178730405771,
+        -0.004380994508042413,
+        1.7458534970411304
+      ],
+      "column_xy_center_field_m": [
+        0.0025210051461044066,
+        -0.001594779989169754,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.004976681168668535,
+      "column_xy_error_m": 0.002983084001589828
+    },
+    {
+      "frame": 58,
+      "source": "059_near_h1.15.png",
+      "view": "near",
+      "camera_height_m": 1.15,
+      "camera_x_m": 1.2500000000000002,
+      "camera_y_m": -2.1650635094610964,
+      "camera_z_m": 1.15,
+      "ball_detected": true,
+      "state": "ON_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        0.0010643053680057246,
+        -0.0031756036585144365,
+        1.7442483357109757
+      ],
+      "column_xy_center_field_m": [
+        0.0029840487495462363,
+        -0.00011653777262855478,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.0034134941077205456,
+      "column_xy_error_m": 0.0029863234908692796
+    },
+    {
+      "frame": 59,
+      "source": "060_near_h1.15.png",
+      "view": "near",
+      "camera_height_m": 1.15,
+      "camera_x_m": 2.165063509461096,
+      "camera_y_m": -1.250000000000001,
+      "camera_z_m": 1.15,
+      "ball_detected": true,
+      "state": "ON_COLUMN",
+      "reason": "rgbd_geometry_ok",
+      "temporal_gate_ok": true,
+      "temporal_gate_reason": "accepted",
+      "ball_center_field_m": [
+        0.001625145542881068,
+        -0.003718320451131074,
+        1.744244622106143
+      ],
+      "column_xy_center_field_m": [
+        0.002645085975825312,
+        0.0013506979497692785,
+        1.7
+      ],
+      "ball_ground_truth_field_m": [
+        0.0,
+        0.0,
+        1.7435889894354066
+      ],
+      "ball_error_m": 0.00411057893876065,
+      "column_xy_error_m": 0.0029699940691891415
+    }
+  ]
+}

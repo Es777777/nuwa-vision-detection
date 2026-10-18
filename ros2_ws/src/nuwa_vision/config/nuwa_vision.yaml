@@ -1,0 +1,4 @@
+nuwa_rgbd_detector:
+  ros__parameters:
+    roi: [0, 0, 0, 0]
+    max_speed_mps: 2.5

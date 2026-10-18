@@ -1,0 +1,15 @@
+{
+  "detector_sha256": "43c770b325bc8917b245e16c2b2e0b55da210a4ad4e0c73ee1c3d36a64ac5027",
+  "generated_utc": "2026-10-11T04:05:22.393765+00:00",
+  "depth_source": "Blender scene ray intersections; simulated depth, not D435i measurements",
+  "intrinsics": {
+    "fx": 1333.33,
+    "fy": 1333.33,
+    "cx": 500.0,
+    "cy": 350.0,
+    "image_size": [
+      1000,
+      700
+    ]
+  }
+}

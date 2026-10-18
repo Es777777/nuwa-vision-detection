@@ -1,0 +1,128 @@
+{
+  "frames": 60,
+  "coordinates_valid_n": 60,
+  "coordinate_frame": "field",
+  "temporal_gate_rejected_frames": 0,
+  "ball_error_median_m": 0.006070690993790253,
+  "ball_error_mean_m": 0.009057054620046514,
+  "ball_error_max_m": 0.07788085246904945,
+  "ball_error_le_5cm_n": 59,
+  "column_xy_error_median_m": 0.0047987009786054635,
+  "sequence_note": "60 ordered fixed-pose Blender views, not continuous robot-motion recording"
+}
+{
+  "view": [
+    {
+      "view": "level",
+      "frames": 12,
+      "coordinate_valid": 12,
+      "detection_rate": 1.0,
+      "ball_error_median_m": 0.008336514910987552,
+      "ball_error_mean_m": 0.009517581049959605,
+      "ball_error_le_5cm_n": 12,
+      "column_xy_error_median_m": 0.0047987009786054635,
+      "temporal_rejected_n": 0
+    },
+    {
+      "view": "near",
+      "frames": 12,
+      "coordinate_valid": 12,
+      "detection_rate": 1.0,
+      "ball_error_median_m": 0.003820338701385267,
+      "ball_error_mean_m": 0.004412704057114117,
+      "ball_error_le_5cm_n": 12,
+      "column_xy_error_median_m": 0.0030166134565459976,
+      "temporal_rejected_n": 0
+    },
+    {
+      "view": "oblique",
+      "frames": 12,
+      "coordinate_valid": 12,
+      "detection_rate": 1.0,
+      "ball_error_median_m": 0.005530232545878658,
+      "ball_error_mean_m": 0.013166839705059932,
+      "ball_error_le_5cm_n": 11,
+      "column_xy_error_median_m": 0.005771493871511267,
+      "temporal_rejected_n": 0
+    },
+    {
+      "view": "top",
+      "frames": 12,
+      "coordinate_valid": 12,
+      "detection_rate": 1.0,
+      "ball_error_median_m": 0.009807083059236076,
+      "ball_error_mean_m": 0.011078109026560548,
+      "ball_error_le_5cm_n": 12,
+      "column_xy_error_median_m": 0.009657747128575353,
+      "temporal_rejected_n": 0
+    },
+    {
+      "view": "upward",
+      "frames": 12,
+      "coordinate_valid": 12,
+      "detection_rate": 1.0,
+      "ball_error_median_m": 0.00586882746751656,
+      "ball_error_mean_m": 0.00711003926153837,
+      "ball_error_le_5cm_n": 12,
+      "column_xy_error_median_m": 0.0040927081973910935,
+      "temporal_rejected_n": 0
+    }
+  ],
+  "camera_height_m": [
+    {
+      "camera_height_m": 0.85,
+      "frames": 12,
+      "coordinate_valid": 12,
+      "detection_rate": 1.0,
+      "ball_error_median_m": 0.00586882746751656,
+      "ball_error_mean_m": 0.00711003926153837,
+      "ball_error_le_5cm_n": 12,
+      "column_xy_error_median_m": 0.0040927081973910935,
+      "temporal_rejected_n": 0
+    },
+    {
+      "camera_height_m": 1.15,
+      "frames": 12,
+      "coordinate_valid": 12,
+      "detection_rate": 1.0,
+      "ball_error_median_m": 0.003820338701385267,
+      "ball_error_mean_m": 0.004412704057114117,
+      "ball_error_le_5cm_n": 12,
+      "column_xy_error_median_m": 0.0030166134565459976,
+      "temporal_rejected_n": 0
+    },
+    {
+      "camera_height_m": 1.5,
+      "frames": 12,
+      "coordinate_valid": 12,
+      "detection_rate": 1.0,
+      "ball_error_median_m": 0.008336514910987552,
+      "ball_error_mean_m": 0.009517581049959605,
+      "ball_error_le_5cm_n": 12,
+      "column_xy_error_median_m": 0.0047987009786054635,
+      "temporal_rejected_n": 0
+    },
+    {
+      "camera_height_m": 2.2,
+      "frames": 12,
+      "coordinate_valid": 12,
+      "detection_rate": 1.0,
+      "ball_error_median_m": 0.005530232545878658,
+      "ball_error_mean_m": 0.013166839705059932,
+      "ball_error_le_5cm_n": 11,
+      "column_xy_error_median_m": 0.005771493871511267,
+      "temporal_rejected_n": 0
+    },
+    {
+      "camera_height_m": 3.5,
+      "frames": 12,
+      "coordinate_valid": 12,
+      "detection_rate": 1.0,
+      "ball_error_median_m": 0.009807083059236076,
+      "ball_error_mean_m": 0.011078109026560548,
+      "ball_error_le_5cm_n": 12,
+      "column_xy_error_median_m": 0.009657747128575353,
+      "temporal_rejected_n": 0
+    }
+  ]
+}
